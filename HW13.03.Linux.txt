@@ -1,0 +1,72 @@
+   1 уровень сложности: 1. Create directory animals in /home 
+
+
+Create subdirectories dogs, cats, fish in animals directory, created earlier
+
+Add files pluto, nemo and garfield to directories, created earlier ( pluto goes to dogs, garfield goes to cats) 
+
+In /tmp directory create file adam
+5.Copy file adam to /home/humans ( create directory) 
+6.Create file evA in /tmp
+7.Rename and move evA to /opt/eve
+8.Move file eve to humans directory ( /home/humans)
+9.Make sure you have adam and eve in humans directory with ls command
+   In order to save history on your PC enter in terminal:
+     history > /tmp/history.txt
+     export_file /tmp/history.txt
+
+0 cd /home/
+   1 mkdir animals
+   2 pwd
+   3 tree /home/
+   4 cd /home/animals/
+   5 mkdir dogs
+   6 mkdir cats
+   7 mkdir fish
+   8 tree /home
+   9 touch /dogs/pluto
+  10 cd /home/animals/dogs
+  11 touch pluto
+  12 tree /home
+  13 cd -
+  14 cd /cats
+  15 cd /home/animals/cats
+  16 touch garfield
+  17 cd -
+  18 cd /home/animals/fish 
+  19 touch nemo
+  20 tree home
+  21 tree /home
+  22 ls -l /home
+  23 ls -l
+  24 cd -
+  25 pwd
+  26 cd -
+  27 cd 
+  28 ls -l /home/animals
+  29 ls -l /home/animals/cats
+  30 cd /tmp
+  31 touch adam
+  32 tree /tmp
+  33 cd /home/
+  34 mkdir humans
+  35 cd -
+  36 cp /tmp/adam /home/humans
+  37 tree /home
+  38 touch evA
+  39 tree /tmp
+  40 cd - 
+  41 cd
+  42 cd /opt
+  43 cd -
+  44 mv /tmp/evA /opt/eve
+  45 tree opt
+  46 tree /opt
+  47 mv /opt/eve home/humans
+  48 mv /opt/eve home/humans/
+  49 mv /opt/eve /home/humans/
+  50 tree humans
+  51 cd /home/humans
+  52 tree
+  53 cd
+  54 history > /tmp/history.txt
